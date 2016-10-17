@@ -11,5 +11,5 @@ var mainView = myApp.addView('.view-main', {
     // Enable dynamic Navbar
     dynamicNavbar: true,
     // Enable Dom Cache so we can use all inline pages
-    domCache: true
+    domCache: true,
 });
