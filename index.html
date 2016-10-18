@@ -40,11 +40,13 @@
           </div>
 
           <!-- topic -->
-          <div data-page="common" class="navbar-inner cached" >
+          {% for p in site.data.trauma-cranial %}
+          <div data-page="{{ p.file | replace:'/','_'}}" class="navbar-inner cached" >
             <div class="left sliding">
               <a href="#" class="link back">< Back</a>
             </div>
           </div>
+          {% endfor %}
 
         </div> <!-- navigation -->
 
@@ -55,91 +57,38 @@
           <!-- index -->
           <div data-page="index" class="page">
             <div class="page-content">
-              <div class="content-block-title">Trauma: Cranial</div>
 
+              <div class="content-block-title">Trauma: Cranial</div>
               <div class="list-block">
                 <ul>
-                  <li><a href="#common" class="item-link">
+                  {% for p in site.data.trauma-cranial %}
+                  <li>
+                    <a href="#{{ p.file | replace:'/','_'}}" class="item-link">
                       <div class="item-content">
                         <div class="item-inner">
-                          <div class="item-title">Common case: Head trauma</div>
+                          <div class="item-title">{{ p.topic }}</div>
                         </div>
-                  </div></a></li>
-                  <li><a href="#head-injury" class="item-link">
-                      <div class="item-content">
-                        <div class="item-inner">
-                          <div class="item-title">Head Injury</div>
-                        </div>
-                  </div></a></li>
-                  <li><a href="#ICP" class="item-link">
-                      <div class="item-content">
-                        <div class="item-inner">
-                          <div class="item-title">ICP monitoring in trauma</div>
-                        </div>
-                  </div></a></li>
+                      </div>
+                    </a>
+                  </li>
+                  {% endfor %}
                 </ul>
               </div>
             </div>
           </div> <!-- index -->
 
-          <div data-page="common" class="page cached">
+          {% for p in site.data.trauma-cranial %}
+          <div data-page="{{ p.file | replace:'/','_'}}" class="page cached">
             <div class="page-content">
-              <div class="content-block-title">Common case: Head trauma</div>
+              <div class="content-block-title">{{ p.topic }}</div>
 
               <div class="content-block">
-                <b>History:</b>
-                <ul>
-                  <li>Time of injury</li>
-                  <li>Mechanism of injury</li>
-                  <li>Medications given en route</li>
-                  <li>Seizure, LOC</li>
-                  <li>Anticoagulants/antiplatelets?</li>
-                </ul>
-
-                <b>Exam:</b>
-                <ul>
-                  <li>GCS</li>
-                  <li>Pupils, cranial nerves (esp 3, 6, 7, 12)</li>
-                  <li>Strength, sensation, mental status</li>
-                  <li>Raccoon eyes, Battle?s sign, Hemotympanum, CSF rhinorrhea/otorrhea</li>
-                  <li>Scalp lacerations</li>
-                </ul>
-
-                <b>Imaging: Head and C-spine CT</b>
-                <ul>
-                  <li>Always check entire head CT for epidural, subdural, subarachnoid, parenchymal blood</li>
-                  <li>Midline shift? Hydrocephalus? Basal cisterns/subarachnoid spaces patent? Gray/white differentiation?</li>
-                  <li>Bone windows: Skull fractures? Fractures near carotids/temporal bone? Posterior frontal sinus? Orbits?</li>
-                  <li>Alignment of cervical spine/fractures. Facet dislocations? Teardrop fractures? Fishmouthing of disc spaces or spinous processes?</li>
-                </ul>
-
-                <b>Labs:</b>
-                <ul>
-                  <li>Full set of labs, +/- tox screen/EtoH if older</li>
-                </ul>
-
-                <b>Plan:</b>
-                <ul>
-                  <li>ABC's</li>
-                  <li>Does the patient need to go to the OR (?epidural hematoma +/-shift, subdural blood +/-mass effect, open/depressed skull fracture)</li>
-                  <li>Obtain CTA if fracture through carotid canal or foramen transversarium</li>
-                  <li>usually will have spine precautions until final CT review by attending radiologist (if no fracture)</li>
-                  <li>admit to ICU for 24 hours.  Floor for neuro-intact non-displaced skull fractures.</li>
-                  <li>If GCS less than 8, consider invasive ICP monitoring (make sure to have ICP monitor and box ready if can?t hit ventricle with ventric).  Goal CPP > 60, ICP < 25 (CPP = MAP ? ICP). See below for indications for invasive ICP monitoring</li>
-                  <li>HOB at 30 degrees (reverse Trendelenberg if spine not cleared)</li>
-                  <li>Avoid hypotonic solutions</li>
-                  <li>pCO2 goal 30-35 mmHg</li>
-                  <li>pO2 >100 mmHg</li>
-                  <li>cooling blanket for fever</li>
-                  <li>q 1 hour neuro checks</li>
-                  <li>Na >135</li>
-                  <li>Normalize PT, PTT and platelets > 80,000</li>
-                  <li>Anticonvulsant x 1 week if depressed skull fracture, immediate post-traumatic seizure, penetrating brain injury, or intracranial blood (Keppra 500 mg BID or 10 mg/kg BID)</li>
-                  <li>Page neurosurgery for change in neuro exam or elevated ICP</li>
-                </ul>
+                {% capture my-include %}{% include {{ p.file }} %}{% endcapture %}
+                {{ my-include | markdownify }}
               </div>
             </div>
           </div>
+          {% endfor %}
 
         </div> <!-- pages -->
 

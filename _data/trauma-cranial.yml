@@ -1,0 +1,8 @@
+- topic: "Common case: head trauma"
+  file: cranial/trauma.md
+
+- topic: Head injury
+  file: cranial/head-injury.md
+
+- topic: ICP monitoring
+  file: cranial/icp-trauma.md
