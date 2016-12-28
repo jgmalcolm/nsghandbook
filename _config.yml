@@ -1,2 +1,5 @@
 url: http://jgmalcolm.com/nsghandbook
 markdown: kramdown
+sections: [Trauma, Vascular, Tumor, Spine]
+collections:
+  - topics

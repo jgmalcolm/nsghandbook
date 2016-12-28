@@ -39,9 +39,9 @@
             <div class="center sliding">Neurosurgery Handbook</div>
           </div>
 
-          <!-- topic -->
-          {% for p in site.data.trauma-cranial %}
-          <div data-page="{{ p.file | replace:'/','_'}}" class="navbar-inner cached" >
+          <!-- categories -->
+          {% for topic in site.topics %}
+          <div data-page="{{ topic.url | replace:'/','_'}}" class="navbar-inner cached" >
             <div class="left sliding">
               <a href="#" class="link back">< Back</a>
             </div>
@@ -58,15 +58,17 @@
           <div data-page="index" class="page">
             <div class="page-content">
 
-              <div class="content-block-title">Trauma: Cranial</div>
+              {% for section in site.sections %}
+              <div class="content-block-title">{{ section }}</div>
               <div class="list-block">
                 <ul>
-                  {% for p in site.data.trauma-cranial %}
+                  {% assign topics = site.topics | where:"section",section %}
+                  {% for topic in topics %}
                   <li>
-                    <a href="#{{ p.file | replace:'/','_'}}" class="item-link">
+                    <a href="#{{ topic.url | replace:'/','_'}}" class="item-link">
                       <div class="item-content">
                         <div class="item-inner">
-                          <div class="item-title">{{ p.topic }}</div>
+                          <div class="item-title">{{ topic.title }}</div>
                         </div>
                       </div>
                     </a>
@@ -74,17 +76,15 @@
                   {% endfor %}
                 </ul>
               </div>
+              {% endfor %}
             </div>
           </div> <!-- index -->
 
-          {% for p in site.data.trauma-cranial %}
-          <div data-page="{{ p.file | replace:'/','_'}}" class="page cached">
+          {% for topic in site.topics %}
+          <div data-page="{{ topic.url | replace:'/','_'}}" class="page cached">
             <div class="page-content">
-              <div class="content-block-title">{{ p.topic }}</div>
-
               <div class="content-block">
-                {% capture my-include %}{% include {{ p.file }} %}{% endcapture %}
-                {{ my-include | markdownify }}
+                {{ topic.content }}
               </div>
             </div>
           </div>
