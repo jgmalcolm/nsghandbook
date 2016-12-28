@@ -2,7 +2,7 @@
 section: Trauma
 title: Spine
 ---
-# Common case: Spinal cord injury/spinal fracture
+# Spinal cord injury / spinal fracture
 
 ## History
 - Timing
