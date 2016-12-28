@@ -1,6 +1,6 @@
 ---
 section: Trauma
-title: "Cranial"
+title: Cranial
 ---
 # Head Trauma
 
