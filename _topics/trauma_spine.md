@@ -51,17 +51,15 @@ title: Spine
 
 # Spinal cord injury
 
-## ABCs
-
-## ASIA score: Prefer to examine at 72h.
-A = Complete. Sensory and motor all lost, no sacral signs.
-B = Incomplete. Sensory but no motor preserved more than 3 levels below injury (sacral sensation)
-C = Incomplete. Sensory and motor preserved, minimal motor. 0-2/5 strength in more than half of muscles below level.
-D = Incomplete. Sensory and motor preserved, functional. 3-5/5 in more than half of muscles below level.
-E = Normal, return of all sensory/motor function.
+- ABCs
+- ASIA score: Prefer to examine at 72h.
+  - A = Complete. Sensory and motor all lost, no sacral signs.
+  - B = Incomplete. Sensory but no motor preserved more than 3 levels below injury (sacral sensation)
+  - C = Incomplete. Sensory and motor preserved, minimal motor. 0-2/5 strength in more than half of muscles below level.
+  - D = Incomplete. Sensory and motor preserved, functional. 3-5/5 in more than half of muscles below level.
+  - E = Normal, return of all sensory/motor function.
 
 # C-spine injury
-from Neurosurgery, March 2013
 - Airway: maintain immobilization with intubation
 - Breathing: consider paralysis of intercostals/diaphragm with hypoventilation
 - Circulation: Consider spinal shock with hemorrhagic/cardiogenic shock.
@@ -101,6 +99,9 @@ from Neurosurgery, March 2013
     - Serial neuro exams and lateral C spine films with each weight
   - 2-4% transient neurologic complication, 1% risk permanent neurologic complication
   - If fail closed reduction get MR before open procedure
+
+from Neurosurgery, March 2013
+
 
 # Cervical Spine Traction
 - Frame placement
