@@ -107,9 +107,9 @@ title: Cranial
 - Usually associated with skull fractures (70-95%)
   - Middle meningeal artery or vein, also diploic veins and venous sinuses.
 - Decompression if:
-  - >30 cm3 regardless of GCS
+  - &gt;30 cm3 regardless of GCS
   - Neurologic deficit (operate within 70 min of pupillary dilatation!)
-  - >15mm thickness or >5mm midline shift
+  - &gt;15mm thickness or >5mm midline shift
   - Brainstem distortion, low threshold for surgery in temporal location
 - Consider conservative mgmt. if <30 cm3 AND <15mm thick AND <5mm shift with no focal deficit and GCS >8
   - Q1h neuro checks
@@ -120,7 +120,7 @@ title: Cranial
 - Can cross sutures, does not cross midline
 - Acute if within 14 days of head injury
 - Decompression if:
-  - >1 cm thickness or >5mm midline shift
+  - &gt;1 cm thickness or >5mm midline shift
   - Neurologic deficit
   - Decline in GCS of 2+ points between time of injury and hospital admission
   - Decompress within 2-4 hours for better outcome.
