@@ -38,17 +38,22 @@ title: Cranial
 - Obtain CTA if fracture through carotid canal or foramen transversarium
 - usually will have spine precautions until final CT review by attending radiologist (if no fracture)
 - admit to ICU for 24 hours.  Floor for neuro-intact non-displaced skull fractures.
-- If GCS less than 8, consider invasive ICP monitoring (make sure to have ICP monitor and box ready if can?t hit ventricle with ventric).  Goal CPP > 60, ICP < 25 (CPP = MAP ? ICP). See below for indications for invasive ICP monitoring
+- If GCS less than 8, consider invasive ICP monitoring.  Goal CPP>60, ICP<25 (CPP=MAP-ICP). See below for indications for invasive ICP monitoring
 - HOB at 30 degrees (reverse Trendelenberg if spine not cleared)
-- Avoid hypotonic solutions
+- Use normal saline as primary fluid, avoid hypotonic solutions
+- Maintain glycemic control
 - pCO2 goal 30-35 mmHg
 - pO2 >100 mmHg
-- cooling blanket for fever
-- q 1 hour neuro checks
+- cooling blanket for fever (minimize metabolic demand)
+- q1 hour neuro checks
 - Na >135
 - Normalize PT, PTT and platelets > 80,000
 - Anticonvulsant x 1 week if depressed skull fracture, immediate post-traumatic seizure, penetrating brain injury, or intracranial blood (Keppra 500 mg BID or 10 mg/kg BID)
 - Page neurosurgery for change in neuro exam or elevated ICP
+- Avoid jugular vein compression
+- Sedation if needed (minimize metabolic demand, ICP)
+- If signs of herniation, mannitol / hypertonic saline
+- steroids contraindicated
 
 
 # Head Injury
