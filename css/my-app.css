@@ -26,6 +26,10 @@ h2 {
     margin-bottom: 5px;
 }
 
+.content-block {
+    color: black;
+}
+
 table {
     border-collapse: collapse;
 }
