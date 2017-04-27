@@ -2,4 +2,4 @@
 
 dir=. #~/repos/jgmalcolm.github.io
 screen -X title jekyll
-jekyll serve --incremental --watch --drafts -s $dir -d /tmp/www
+jekyll serve --watch --drafts -s $dir -d /tmp/www
