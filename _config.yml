@@ -1,5 +1,5 @@
 url: http://jgmalcolm.com/nsghandbook
 markdown: kramdown
-sections: [Trauma, Vascular, Tumor, Spine, ICU]
+sections: [General, Trauma, Vascular, Tumor, Spine, ICU]
 collections:
   - topics
