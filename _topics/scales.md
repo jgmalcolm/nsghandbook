@@ -88,3 +88,12 @@ Range: 1-5
   - Motion: forehead - none; eye - incomplete closure; mouth - slight movement
 - Grade VI - Total Paralysis
   - No movement
+
+
+# ASIA impairment scale for spine
+
+- A = Complete: No sensory or motor function is preserved in sacral segments S4-S5
+- B = Incomplete: Sensory, but not motor, function is preserved below the neurologic level and extends through sacral segments S4-S5
+- C = Incomplete: Motor function is preserved below the neurologic level, and most key muscles below the neurologic level have a muscle grade of less than 3
+- D = Incomplete: Motor function is preserved below the neurologic level, and most key muscles below the neurologic level have a muscle grade that is greater than or equal to 3
+- E = Normal: Sensory and motor functions are normal
