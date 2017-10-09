@@ -223,9 +223,16 @@ title: Cranial
 - Fracture traversing carotid canal
 - Heparin gtt
 - Antiplatelet therapy
+- Dennis classification
 
 ## Diffuse Axonal Injury
 Obtain MRI
 - Grade I = only peripheral gray-white junction
 - Grade II = injury to corpus callosum
 - Grade III = injury to dorsolateral midbrain
+
+
+# Traumatic SAH
+
+- goal PLT > 100, INR < 1.4
+- repeat CT wo at 24hrs or earlier if exam change
