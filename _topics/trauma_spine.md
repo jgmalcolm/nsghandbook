@@ -122,3 +122,12 @@ from Neurosurgery, March 2013
   - Neuro exam before and after each change in weights.
   - Confirm on X ray
   - Can give valium for musc
+
+# Central Cord Syndrome
+
+- BUE paraesthesia, weakness; spares BLE
+- CT can suggest stenosis and disc, follow with MRI wo
+- consider decompression if acute disc bulge
+- severe: decadron 10 + 6q6, decompression
+- prognosis: most recover, some with residual spasticity/weakness
+- admit to ICU for MAP goal > 85
