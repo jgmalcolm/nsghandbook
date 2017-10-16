@@ -234,5 +234,8 @@ Obtain MRI
 
 # Traumatic SAH
 
+- admit to ICU for q1 neuro checks
 - goal PLT > 100, INR < 1.4
 - repeat CT wo at 24hrs or earlier if exam change
+- keppra 500bid
+  - if seizures already, then add 1g load
