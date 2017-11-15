@@ -9,12 +9,13 @@ title: Grading scales
   1. Does not open eyes
   2. Opens to pain
   3. Opens to voice
+  4. Eyes open spontaneously
 - Voice
   1. No response
   2. Incoherent sounds
   3. Inappropriate words
   4. Confused
-  5. Oriented to person, place, time
+  5. Oriented
 - Motor
   1. No movement
   2. Extensor posturing (decerebrate)
