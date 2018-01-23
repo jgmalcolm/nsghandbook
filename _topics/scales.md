@@ -6,23 +6,26 @@ title: Grading scales
 # Glasgow Coma Scale for TBI
 
 - Eyes
-  1. Does not open eyes
-  2. Opens to pain
-  3. Opens to voice
   4. Eyes open spontaneously
+  3. Opens to voice
+  2. Opens to pain
+  1. Does not open eyes
+  {: reversed="reversed"}
 - Voice
-  1. No response
-  2. Incoherent sounds
-  3. Inappropriate words
-  4. Confused
   5. Oriented
+  4. Confused
+  3. Inappropriate words
+  2. Incoherent sounds
+  1. No response
+  {: reversed="reversed"}
 - Motor
-  1. No movement
-  2. Extensor posturing (decerebrate)
-  3. Flexion posturing (decorticate, tripleflex*)
-  4. Withdraw from pain
-  5. Localize
   6. Follows commands
+  5. Localize
+  4. Withdraw from pain
+  3. Flexion posturing (decorticate, tripleflex*)
+  2. Extensor posturing (decerebrate)
+  1. No movement
+  {: reversed="reversed"}
 
 Use "1T" to indicate trach'd and unable to talk, but can use higher numbers if
 able to communicate despite trach.
